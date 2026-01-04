@@ -1,0 +1,12 @@
+version: 2
+
+models:
+  - name: bronze_listings
+    description: "Bronze layer for listings data from staging"
+    
+  - name: bronze_booking
+    description: "Bronze layer for booking data from staging"
+    
+  - name: bronze_hosts
+    description: "Bronze layer for hosts data from staging"
+

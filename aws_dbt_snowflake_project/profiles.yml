@@ -1,0 +1,13 @@
+aws_dbt_snowflake_project:
+  outputs:
+    dev:
+      account: HHMNKHZ-QIC56996
+      database: AIRBNB
+      password: Bhalchandra@=183
+      role: ACCOUNTADMIN
+      schema: staging
+      threads: 1
+      type: snowflake
+      user: KIRTISH
+      warehouse: COMPUTE_WH
+  target: dev

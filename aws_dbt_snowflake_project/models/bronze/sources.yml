@@ -1,0 +1,16 @@
+version: 2
+
+sources:
+  - name: staging
+    database: AIRBNB
+    schema: STAGING
+    tables:
+      - name: BOOKINGS
+        description: "Raw bookings data from staging"
+        
+      - name: HOSTS
+        description: "Raw hosts data from staging"
+        
+      - name: LISTINGS
+        description: "Raw listings data from staging"
+
